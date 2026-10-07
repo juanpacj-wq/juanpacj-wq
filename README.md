@@ -27,24 +27,25 @@ I work end to end: data pipelines, backend, frontend, deployment, security and
 automated tests.
 
 **Fun fact:** one of my systems replaced the Excel logbook that two power
-plants had used for years, and an external penetration test on another one
-closed with only 3 low-severity findings. 😄
+plants had used for years. Nobody misses the spreadsheet. 😄
 
 ## ⚡ Recent work
 
-- 🌐 **Bilingual corporate website** (134 pages, WordPress with a custom block
-  theme): Linux deployments with automatic rollback, WCAG 2.2 AA.
+- 🌐 **[Bilingual corporate website](https://www.gecelca.com.co/es/)**: led
+  the rebuild of a 134-page site in Spanish and English on WordPress with a
+  custom block theme, accessible to WCAG 2.2 AA.
 - 📒 **Digital operations logbook** for two thermal power plants: React,
   Node.js, WebSockets, SQL Server and Entra ID SSO, with 600+ automated tests.
 - 📡 **Real-time plant telemetry**: energy meters over Modbus TCP every 2 s
   (15 to 25 ms latency), streamed to Microsoft Fabric and Power BI.
 - 🧾 **Rescued a legacy e-invoicing ETL** (Airflow, Selenium, Oracle,
   MongoDB): from zero to 151 tests with CI, without stopping operations.
-- 🎟️ **Event platform** for a 160+ guest corporate forum: QR credentials,
-  Microsoft Graph and 156 certificates verified in code.
+- 🎟️ **[Event platform](https://cdp.gecelca.com.co/)** for a 160+ guest
+  corporate forum: public agenda and results, QR credentials, Microsoft Graph
+  and 156 certificates verified in code.
 
-> Most of this code is private because it belongs to my employer. What I can
-> share is pinned below.
+> The two public sites are linked above. The code behind all of this is
+> private because it belongs to my employer; what I can share is pinned below.
 
 ## 🛠️ My Digital Toolbox
 
