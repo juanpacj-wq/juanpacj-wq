@@ -44,7 +44,7 @@ and automated tests.
 The code for these projects belongs to my employer and is private, so each one
 is told as a case study on [my portfolio](https://juancespedes.dev/en), with the problem, the
 decisions, an architecture diagram and the results. My public repositories are
-pinned below.
+listed under Open source below.
 
 ## Tech stack
 
