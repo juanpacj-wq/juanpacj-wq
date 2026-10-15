@@ -2,7 +2,10 @@
 
 <p align="center">Systems engineer in Barranquilla, Colombia. Full-stack development, data and automation.</p>
 
+<p align="center"><strong>Portfolio: <a href="https://juancespedes.dev/en">juancespedes.dev</a></strong><br>Case studies with architecture diagrams and measured results, in English and Spanish.</p>
+
 <p align="center">
+  <a href="https://juancespedes.dev/en"><img src="https://img.shields.io/badge/Portfolio-juancespedes.dev-111111?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio: juancespedes.dev"></a>
   <a href="https://www.linkedin.com/in/juan-cespedesjc"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyBmaWxsPSIjZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48cGF0aCBkPSJNMTE2IDNIMTJhOC45MSA4LjkxIDAgMDAtOSA4Ljh2MTA0LjQyYTguOTEgOC45MSAwIDAwOSA4Ljc4aDEwNGE4LjkzIDguOTMgMCAwMDktOC44MVYxMS43N0E4LjkzIDguOTMgMCAwMDExNiAzek0zOS4xNyAxMDdIMjEuMDZWNDguNzNoMTguMTF6bS05LTY2LjIxYTEwLjUgMTAuNSAwIDExMTAuNDktMTAuNSAxMC41IDEwLjUgMCAwMS0xMC41NCAxMC40OHpNMTA3IDEwN0g4OC44OVY3OC42NWMwLTYuNzUtLjEyLTE1LjQ0LTkuNDEtMTUuNDRzLTEwLjg3IDcuMzYtMTAuODcgMTVWMTA3SDUwLjUzVjQ4LjczaDE3LjM2djhoLjI0YzIuNDItNC41OCA4LjMyLTkuNDEgMTcuMTMtOS40MUMxMDMuNiA0Ny4yOCAxMDcgNTkuMzUgMTA3IDc1eiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn"></a>
   <a href="mailto:juanpablocespedesj@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <img src="https://img.shields.io/badge/Barranquilla,_Colombia-FCD116?style=for-the-badge&logo=googlemaps&logoColor=black" alt="Barranquilla, Colombia">
@@ -21,22 +24,27 @@ and automated tests.
 - **[Corporate website](https://www.gecelca.com.co/es/)**: I led the rebuild
   of the bilingual site, 134 pages in Spanish and English on WordPress with a
   custom block theme. It meets WCAG 2.2 AA.
+  ([case study](https://juancespedes.dev/en/projects/corporate-portal))
 - **Operations logbook** for two thermal power plants. It replaced the Excel
   files the operators used before. React, Node.js, WebSockets, SQL Server and
   Entra ID single sign-on, with more than 600 automated tests.
+  ([case study](https://juancespedes.dev/en/projects/operations-logbook))
 - **Plant telemetry**: reads five energy meters over Modbus TCP every 2
   seconds (15 to 25 ms per read) and publishes the data to Microsoft Fabric
-  and Power BI.
+  and Power BI. ([case study](https://juancespedes.dev/en/projects/plant-telemetry))
 - **E-invoicing ETL**: I took over a legacy pipeline (Airflow, Selenium,
   Oracle, MongoDB) that was failing without raising any alert, and added 151
   tests and CI while it kept running in production.
+  ([case study](https://juancespedes.dev/en/projects/invoice-etl-rescue))
 - **[Event platform](https://cdp.gecelca.com.co/)** for a corporate forum
   with more than 160 guests: agenda and results, QR credentials, Microsoft
   Graph integration and 156 attendance certificates generated and checked by
-  script.
+  script. ([case study](https://juancespedes.dev/en/projects/event-platform))
 
-The code for these projects belongs to my employer and is private. My public
-repositories are pinned below.
+The code for these projects belongs to my employer and is private, so each one
+is told as a case study on [my portfolio](https://juancespedes.dev/en), with the problem, the
+decisions, an architecture diagram and the results. My public repositories are
+pinned below.
 
 ## Tech stack
 
@@ -94,10 +102,16 @@ repositories are pinned below.
 
 ## Open source
 
+- [**juancespedes.dev**](https://github.com/juanpacj-wq/juancespedes.dev): the
+  source of [my portfolio](https://juancespedes.dev/en), built in public as a frontend work sample.
+  Astro with React islands, TypeScript and Tailwind CSS on Cloudflare Workers,
+  with 24 architecture decision records and performance and accessibility
+  checks that block the merge.
 - [**linkedin-mcp**](https://github.com/juanpacj-wq/linkedin-mcp): MCP
   server and CLI that operates LinkedIn through your own browser session
   (profile editing, networking and Easy Apply), built on Playwright. It applies
   rate limits and asks for confirmation before any action other people can see.
+  ([case study](https://juancespedes.dev/en/projects/linkedin-pilot))
 - [**speedrun-github-achievements**](https://github.com/juanpacj-wq/speedrun-github-achievements):
   a guide to GitHub achievements in Spanish, 14 chapters.
 
