@@ -28,7 +28,7 @@ and automated tests.
   of the bilingual site, 134 pages in Spanish and English on WordPress with a
   custom block theme. It meets WCAG 2.2 AA.
   ([case study](https://juancespedes.dev/en/projects/corporate-portal))
-- **Operations logbook** for two thermal power plants. It replaced the Excel
+- **Operations logbook** for four power plants. It replaced the Excel
   files the operators used before. React, Node.js, WebSockets, SQL Server and
   Entra ID single sign-on, with more than 600 automated tests.
   ([case study](https://juancespedes.dev/en/projects/operations-logbook))
