@@ -22,7 +22,7 @@ and automated tests.
 - **[Portfolio: juancespedes.dev](https://juancespedes.dev/en)**: my personal site, bilingual and
   built in public as a frontend work sample. Astro with React islands,
   TypeScript and Tailwind CSS on Cloudflare Workers, with a case study for each
-  project below, 24 architecture decision records and performance and
+  project below, 33 architecture decision records and performance and
   accessibility checks that block the merge.
 - **[Corporate website](https://www.gecelca.com.co/es/)**: I led the rebuild
   of the bilingual site, 134 pages in Spanish and English on WordPress with a
@@ -35,6 +35,15 @@ and automated tests.
 - **Plant telemetry**: reads five energy meters over Modbus TCP every 2
   seconds (15 to 25 ms per read) and publishes the data to Microsoft Fabric
   and Power BI. ([case study](https://juancespedes.dev/en/projects/plant-telemetry))
+- **Power BI reports in production**: four reports with 146 DAX measures in
+  all, a [thermal generation scorecard](https://juancespedes.dev/en/projects/generation-scorecard)
+  with IEEE reliability indicators, [rainfall monitoring](https://juancespedes.dev/en/projects/rainfall-monitoring),
+  [budget execution](https://juancespedes.dev/en/projects/budget-execution) and the
+  [finances of a solar energy program](https://juancespedes.dev/en/projects/solar-program-finance).
+  They run on Microsoft Fabric: ETL pipelines and notebooks load the sources
+  into bronze, silver and gold lakehouses (a medallion architecture), and a
+  Fabric warehouse feeds each report's model. Each one has a live public
+  replica with synthetic data.
 - **E-invoicing ETL**: I took over a legacy pipeline (Airflow, Selenium,
   Oracle, MongoDB) that was failing without raising any alert, and added 151
   tests and CI while it kept running in production.
