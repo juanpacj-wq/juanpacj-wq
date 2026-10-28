@@ -32,6 +32,12 @@ and automated tests.
   files the operators used before. React, Node.js, WebSockets, SQL Server and
   Entra ID single sign-on, with more than 600 automated tests.
   ([case study](https://juancespedes.dev/en/projects/operations-logbook))
+- **Metering point records**: the official 18-section life record of the
+  metering system at each energy trading point. Every change is a draft that
+  is reviewed and published as an immutable version with its official PDF and
+  Word file. React, TypeScript, Express, Kysely, SQL Server and Entra ID, with
+  more than 950 automated tests; in user testing.
+  ([case study](https://juancespedes.dev/en/projects/metering-life-record))
 - **Plant telemetry**: reads five energy meters over Modbus TCP every 2
   seconds (15 to 25 ms per read) and publishes the data to Microsoft Fabric
   and Power BI. ([case study](https://juancespedes.dev/en/projects/plant-telemetry))
@@ -44,6 +50,12 @@ and automated tests.
   into bronze, silver and gold lakehouses (a medallion architecture), and a
   Fabric warehouse feeds each report's model. Each one has a live public
   replica with synthetic data.
+- **Mine dashboard on Microsoft Fabric** (in progress): moving a coal mine's
+  Excel dashboard to Power BI on a bronze, silver and gold model whose figures
+  match the Excel ones (24 of 24 indicators, checked with Spark). The 10
+  pipelines are generated from versioned T-SQL and deployed with the Fabric
+  CLI and the Fabric MCP server.
+  ([case study](https://juancespedes.dev/en/projects/mine-dashboard-fabric))
 - **E-invoicing ETL**: I took over a legacy pipeline (Airflow, Selenium,
   Oracle, MongoDB) that was failing without raising any alert, and added 151
   tests and CI while it kept running in production.
